@@ -1,0 +1,81 @@
+:root {
+  --irish: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --white: #fff;
+  --slate: #434455;
+  --conrflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* GENERAL STYLING*/
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bg-dark {
+  background-color: #2e2f42;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 800;
+}
+
+.logo-web {
+  color: #4d5ae5;
+  font-family: sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+/*END OF THE GENERAL STYLING*/
+
+/*HEADER STYLING*/
+.logo-studio-nav {
+  color: #2e2f42;
+}
+/*END OF HEADER STYLING*/
+
+/*HERO SECTION*/
+.hero {
+  text-align: center;
+}
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  text-transform: capitalize;
+}
+
+.hero-btn {
+  background-color: var(--irish);
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+/*END OF HEADER STYLING*/
+
+/*FOOTER STYLING*/
+.logo-studio-footer {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/*END OF FOOTER STYLING*/

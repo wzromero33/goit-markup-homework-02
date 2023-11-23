@@ -37,6 +37,32 @@ body {
 .link {
   text-decoration: none;
 }
+
+.section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center; /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.p-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.p-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
 /*END OF THE GENERAL STYLING*/
 
 /*HEADER STYLING*/
@@ -84,6 +110,25 @@ body {
   border: none;
   border-radius: 4px;
   color: white;
+}
+
+/*TEAM SECTION STYLING*/
+.team-name {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.team-title {
+  color: var(--SLATE, #434455);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 /*END OF HEADER STYLING*/

@@ -1,4 +1,4 @@
-:root {
+project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --irish: #4d5ae5;
   --navyblue: #2e2f42;
   --ocean: #404bbf;
@@ -8,9 +8,28 @@
   --cloud: #f4f4fd;
 }
 
+:root {
+  --main-text-color: var(--navyblue);
+  --background-color: #fff;
+  --font-size: 16px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
 }
+
+.header {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+/* <!--Body-- > body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #ffffff;
+} */
 
 /* GENERAL STYLING*/
 
@@ -25,13 +44,11 @@ body {
 
 .logo {
   text-transform: uppercase;
-  font-family: Raleway;
   font-weight: 800;
 }
 
 .logo-web {
   color: #4d5ae5;
-  font-family: sans-serif;
 }
 
 .link {
@@ -77,18 +94,24 @@ body {
   color: var(--navyblue);
 }
 
-.nav-link: hover,
+.nav-link: hover {
+  color: #404bbf;
+}
+
 .nav-link: focus {
-  color: --ocean;
+  color: #404bbf;
 }
 .active {
   color: var(--ocean);
 }
-.contacts {
-  line-height: 1.5;
-  color: var(--slate);
+
+.link-contacts {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
+
 /*END OF HEADER STYLING*/
 
 /*HERO SECTION*/

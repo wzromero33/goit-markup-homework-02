@@ -43,6 +43,26 @@ body {
 .logo-studio-nav {
   color: #2e2f42;
 }
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5; /*150% */
+  letter-spacing: 0.32px;
+  color: var(--navyblue);
+}
+
+.nav-link: hover,
+.nav-link: focus {
+  color: --ocean;
+}
+.active {
+  color: var(--ocean);
+}
+.contacts {
+  line-height: 1.5;
+  color: var(--slate);
+  letter-spacing: 0.32px;
+}
 /*END OF HEADER STYLING*/
 
 /*HERO SECTION*/
@@ -76,6 +96,6 @@ body {
 .footer-text {
   color: var(--cloud);
   line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 1.5;
 }
 /*END OF FOOTER STYLING*/

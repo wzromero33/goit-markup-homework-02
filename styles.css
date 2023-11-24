@@ -12,12 +12,25 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --main-text-color: var(--navyblue);
   --background-color: #ffffff;
   --font-size: 16px;
+  --logo-text-color: #4d5ae5;
+  --link-text-color: #2e2f42;
+  --hovered-link-text-color: #404bbf;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #ffffff;
+}
+
+/* other styles for the link */
+
+/* Styles for when the link is being hovered over */
+&:hover {
+  color: #404bbf;
+}
+
+.logo {
+  color: var(--logo-text-color);
 }
 
 .header {
@@ -41,12 +54,16 @@ body {
   background-color: #2e2f42;
 }
 
-.logo {
+.logo span {
   text-transform: uppercase;
   font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.logo-web {
+.logo-web span {
   color: #4d5ae5;
 }
 
@@ -86,7 +103,7 @@ body {
   color: #2e2f42;
 }
 
-.nav-link {
+.nav-link :active {
   font-weight: 500;
   line-height: 1.5; /*150% */
   letter-spacing: 0.32px;
@@ -100,7 +117,7 @@ body {
 .nav-link: focus {
   color: #404bbf;
 }
-.active {
+.nav-link {
   color: var(--ocean);
 }
 
@@ -116,6 +133,11 @@ body {
 /*HERO SECTION*/
 .hero {
   text-align: center;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  padding-top: 50px;
 }
 .hero-text {
   color: white;
@@ -137,7 +159,6 @@ body {
 /*TEAM SECTION STYLING*/
 .team-name {
   color: var(--NAVY-BLUE, #2e2f42);
-
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5; /* 120% */

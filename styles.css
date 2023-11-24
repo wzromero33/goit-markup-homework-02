@@ -2,7 +2,7 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --irish: #4d5ae5;
   --navyblue: #2e2f42;
   --ocean: #404bbf;
-  --white: #fff;
+  --white: #ffffff;
   --slate: #434455;
   --conrflower: #e7e9fc;
   --cloud: #f4f4fd;
@@ -10,26 +10,25 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
 
 :root {
   --main-text-color: var(--navyblue);
-  --background-color: #fff;
+  --background-color: #ffffff;
   --font-size: 16px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: #fff;
+  background: #ffffff;
 }
 
 .header {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 16px;
 }
 
-/* <!--Body-- > body {
-  font-family: "Roboto", sans-serif;
+.body {
   color: #434455;
   background: #ffffff;
-} */
+}
 
 /* GENERAL STYLING*/
 

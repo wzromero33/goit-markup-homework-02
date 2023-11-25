@@ -104,15 +104,15 @@ project-/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-text: hover {
+.logo-text:hover {
   color: #404bbf;
 }
 
-.logo-text: focus {
+.logo-text:focus {
   color: #404bbf;
 }
 
-.logo-text: :active {
+.logo-text:active {
   color: #404bbf;
 }
 

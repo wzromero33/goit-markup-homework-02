@@ -1,4 +1,4 @@
-project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
+project-/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --irish: #4d5ae5;
   --navyblue: #2e2f42;
   --ocean: #404bbf;
@@ -8,41 +8,15 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --cloud: #f4f4fd;
 }
 
-.logo link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-/* body {
-  color: #434455;
-  background: #ffffff;
-} */
-
-/*other styles for the link */
-
-/* Styles for when the link is being hovered over */
-/* &:hover {
-  color: #404bbf;
-}
-
-.logo {
-  color: var(--logo-text-color);
-} */
-
-.header {
-  background-color: #ffffff;
-  font-size: 18px;
-}
-
 .body {
   color: #434455;
   background: #ffffff;
   font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  font-size: 18px;
 }
 
 /* GENERAL STYLING*/

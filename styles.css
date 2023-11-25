@@ -8,7 +8,7 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --cloud: #f4f4fd;
 }
 
-/* .logo link {
+.logo link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -16,7 +16,7 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   letter-spacing: 0.32em;
   text-transform: uppercase;
   color: #4d5ae5;
-} */
+}
 
 /* body {
   color: #434455;

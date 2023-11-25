@@ -8,39 +8,41 @@ project-root/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   --cloud: #f4f4fd;
 }
 
-:root {
-  --main-text-color: var(--navyblue);
-  --background-color: #ffffff;
-  --font-size: 16px;
-  --logo-text-color: #4d5ae5;
-  --link-text-color: #2e2f42;
-  --hovered-link-text-color: #404bbf;
-}
+/* .logo link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+} */
 
-body {
+/* body {
   color: #434455;
   background: #ffffff;
-}
+} */
 
-/* other styles for the link */
+/*other styles for the link */
 
 /* Styles for when the link is being hovered over */
-&:hover {
+/* &:hover {
   color: #404bbf;
 }
 
 .logo {
   color: var(--logo-text-color);
-}
+} */
 
 .header {
   background-color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .body {
   color: #434455;
   background: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 /* GENERAL STYLING*/
@@ -91,7 +93,7 @@ body {
 
 .p-text {
   color: var(--SLATE, #434455);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
@@ -108,6 +110,7 @@ body {
   line-height: 1.5; /*150% */
   letter-spacing: 0.32px;
   color: var(--navyblue);
+  font-size: 16px;
 }
 
 .nav-link: hover {
@@ -117,8 +120,13 @@ body {
 .nav-link: focus {
   color: #404bbf;
 }
+
 .nav-link {
-  color: var(--ocean);
+  font-weight: 500;
+  line-height: 1.5; /*150% */
+  letter-spacing: 0.32px;
+  color: var(--navyblue);
+  font-size: 16px;
 }
 
 .link-contacts {
@@ -134,7 +142,7 @@ body {
 .hero {
   text-align: center;
   background-color: #2e2f42;
-  width: 1440px;
+  /* width: 1440px; */
   height: 600px;
   flex-shrink: 0;
   padding-top: 50px;
@@ -179,11 +187,11 @@ body {
 /*FOOTER STYLING*/
 .logo-studio-footer {
   color: var(--cloud);
-}
+  /* }
 
 .footer-text {
   color: var(--cloud);
   line-height: 24px; /* 150% */
   letter-spacing: 1.5;
 }
-/*END OF FOOTER STYLING*/
+/* END OF FOOTER STYLING */

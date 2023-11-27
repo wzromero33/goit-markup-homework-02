@@ -1,15 +1,24 @@
-project-/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
-  --logo-text-color: #2e2f42;
-  --background-color: #ffffff;
-  --main-color: #2e2f42;
-  --font-famliy: "Roboto", sans-serif;
-  --logo-text-color: #4d5ae5;
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --oceancolor: #404bbf;
+  --whitecolor: #ffffff;
+  --slatecolor: #434455;
+  --cornflowercolor: #e7e9fc;
+  --cloudcolor: #f4f4fd;
+  --greencolor: #31d0aa;
+  --lightslatecolor: #8e8f99;
+  --navybluemodalcolor: #2e2f42;
+  --greycolor: #2e2f42;
+  --dairycolor: #fcfcfc;
 }
 
-.body {
-  font-family: "Roboto", sans-serif;
+/* Main Page */
+body {
+  font-family: Roboto, sans-serif;
   color: #434455;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .header {
@@ -112,9 +121,9 @@ project-/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   color: #404bbf;
 }
 
-.logo-text:active {
+/* .logo-text:active {
   color: #404bbf;
-}
+} */
 
 .logo-text {
   font-weight: 800;
@@ -156,6 +165,7 @@ project-/|-- index.html|-- css/|-- style.css|-- images/|-- js/ :root {
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   text-transform: capitalize;
+  font-style: "Roboto", sans-serif;
 }
 
 .hero-btn {

@@ -18,6 +18,16 @@
   --logo-color: #4d5ae5;
   --link-color: #2e2f42;
   --hover-color: #404bbf;
+  --main-background-color: #ffffff;
+  --text-color: #2e2f42;
+  --primary-color: #4d5ae5;
+  --secondary-color: #2e2f42;
+  --link-color: #434455;
+  --section-background: #2e2f42;
+  --header-font-color: #ffffff;
+  --button-background: #4d5ae5;
+  --button-text-color: #ffffff;
+  --button-hover-background: #404bbf;
 }
 
 /* Main Page */
@@ -30,11 +40,16 @@ body {
 .header {
   background-color: #ffffff;
   font-size: 18px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 /* GENERAL STYLING*/
 
-.navigation {
+.logo-link {
   list-style: none;
   padding-left: 0;
 }
@@ -104,7 +119,7 @@ body {
 
 .p-text {
   color: var(--SLATE, #434455);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
@@ -128,7 +143,7 @@ body {
   text-decoration: none;
 }
 
-.logo-text {
+.nav-link {
   font-weight: 800;
   line-height: 1.7; /*150% */
   letter-spacing: 0.32px;
@@ -136,6 +151,7 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   list-style: none;
+  text-decoration: none;
 }
 
 .logo-text:hover {
@@ -163,7 +179,7 @@ body {
 
 .link-contacts {
   color: #434455;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   font-size: 16px;
@@ -203,6 +219,13 @@ body {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 /*TEAM SECTION STYLING*/

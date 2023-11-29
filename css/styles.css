@@ -37,10 +37,20 @@ body {
   background-color: #ffffff;
 }
 
+header 
 
 /* GENERAL STYLING*/
-.logo-link {
+.nav
+
+.logo-list {
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--logo-color, #4d5ae5);
 }
 
 .logo-web {
@@ -67,14 +77,22 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-.list-style {
+.default-list {
   list-style: none;
   text-decoration: none;
+  font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--nav-link-color, #2e2f42);
 }
+
+.nav li:first-child a:hover,
+    .nav li:first-child a:focus {
+      color: #404bbf;
 
 .nav-link {
   color: var(--NAVY-BLUE, #2E2F42);
-/* Body Medium */
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -82,12 +100,11 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 text-decoration: none;
-list-style: none;
 }
+
 
 .link-contacts {
   color: var(--SLATE, #434455);
-/* Body */
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -100,7 +117,6 @@ text-decoration: none;
 .hero-text {
 color: var(--WHITE, #FFF);
 text-align: center;
-/* Header 1 */
 font-family: Roboto;
 font-size: 56px;
 font-style: normal;
@@ -118,11 +134,6 @@ letter-spacing: 1.12px;
 .logo-text:focus {
   color: #404bbf;
 }
-
-/* .logo-text:active {
-  color: #404bbf;
-} */
-
 
 /*END OF HEADER STYLING*/
 
@@ -165,7 +176,6 @@ letter-spacing: 1.12px;
 
 .p-title {
 color: var(--NAVY-BLUE, #2E2F42);
-/* Header 3 */
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
@@ -176,7 +186,6 @@ letter-spacing: 0.4px;
 
 .p-text {
 color: var(--SLATE, #434455);
-/* Body */
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -188,7 +197,6 @@ letter-spacing: 0.32px;
 .section-title {
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-/* Header 2 */
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
@@ -212,8 +220,6 @@ text-transform: capitalize;
 
 .btn-1 {
   color: #ffffff;
-  /* text-align: center; */
-  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -224,8 +230,6 @@ text-transform: capitalize;
 
 .btn {
   color: var(--IRIS, #4d5ae5);
-  /* text-align: center; */
-  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -237,8 +241,7 @@ text-transform: capitalize;
 
 
 .item-title {
-  color: #2e2f42);
-  /* Header 3 */
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -249,8 +252,7 @@ text-transform: capitalize;
 }
 
 .item-text {
-  color: #434455);
-  /* Body */
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -290,8 +292,6 @@ text-transform: capitalize;
 
 /*FOOTER STYLING*/
 .bg-dark {
-  /* width: 1440px; */
-/* height: 312px; */
 flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
 text-decoration: none;
@@ -305,7 +305,6 @@ list-style: none;
   font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
-  /* letter-spacing: 0.54px; */
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -327,10 +326,8 @@ list-style: none;
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
-  /* font-style: normal; */
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   background-color: #2e2f42;
 }
-/* END OF FOOTER STYLING */

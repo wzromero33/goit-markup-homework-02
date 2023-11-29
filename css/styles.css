@@ -39,6 +39,9 @@ body {
 
 
 /* GENERAL STYLING*/
+.logo-link {
+  text-decoration: none;
+}
 
 .logo-web {
 color: var(--IRIS, #4D5AE5);
@@ -67,7 +70,6 @@ text-decoration: none;
 .list-style {
   list-style: none;
   text-decoration: none;
-  background-color: #2e2f42;
 }
 
 .nav-link {
@@ -198,6 +200,16 @@ text-transform: capitalize;
 
 
 /*Portfolio section*/
+
+.photo {
+  list-style: none;
+}
+
+.button {
+  text-decoration: none;
+  list-style: none;
+}
+
 .btn-1 {
   color: #ffffff;
   /* text-align: center; */
@@ -223,12 +235,6 @@ text-transform: capitalize;
   list-style: none;
 }
 
-.img {
-  width: 360px;
-  height: 300px;
-  flex-shrink: 0;
-  list-style: none;
-}
 
 .item-title {
   color: #2e2f42);
@@ -283,9 +289,16 @@ text-transform: capitalize;
 /*END OF HEADER STYLING*/
 
 /*FOOTER STYLING*/
+.bg-dark {
+  /* width: 1440px; */
+/* height: 312px; */
+flex-shrink: 0;
+background: var(--NAVY-BLUE, #2E2F42);
+text-decoration: none;
+list-style: none;
+}
 
-
-.logo-web {
+.logo-web-footer {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -294,9 +307,10 @@ text-transform: capitalize;
   line-height: 21px; /* 116.667% */
   /* letter-spacing: 0.54px; */
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.logo-studio {
+.logo-studio-footer {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
@@ -305,6 +319,8 @@ text-transform: capitalize;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  background-color: #2e2f42;
+  text-decoration: none;
 }
 
 .footer-text {
@@ -312,9 +328,9 @@ text-transform: capitalize;
   font-family: Roboto;
   font-size: 16px;
   /* font-style: normal; */
-  /* font-weight: 400; */
+  font-weight: 400;
   line-height: 24px; /* 150% */
-  /* letter-spacing: 0.32px; */
+  letter-spacing: 0.32px;
   background-color: #2e2f42;
 }
 /* END OF FOOTER STYLING */

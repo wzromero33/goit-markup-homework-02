@@ -40,7 +40,9 @@ body {
 header 
 
 /* GENERAL STYLING*/
-.nav
+.link  {
+text-decoration: none;
+}
 
 .logo-list {
   text-decoration: none;

@@ -62,7 +62,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hdr-contacts .link {
+.header-contacts .link {
   color: var(--NAVY-BLUE, #434455);
   font-size: 16px;
   font-weight: 500;

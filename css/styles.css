@@ -46,16 +46,23 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-links .link {
+.hdr-navigation .link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* . .nav-links .link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-}
+} */
 
-.nav-contact .link {
+.hdr-contacts .link {
   color: var(--NAVY-BLUE, #434455);
   font-size: 16px;
   font-weight: 500;

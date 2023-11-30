@@ -4,184 +4,143 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&displaydisplay=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Main Page</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-studio">Studio</span></a
-        >
+    <header>
+      <nav>
+        <a class="logo link" href="./index.html">
+          Web<span class="textlogo">Studio</span>
+        </a>
         <ul class="list">
-          <li>
-            <a href="./index.html" class="nav-link">Studio</a>
+          <li class="nav-links">
+            <a class="link" href="./index.html"> Studio </a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+          <li class="nav-links">
+            <a class="link" href="./portfolio.html"> Portfolio </a>
           </li>
-          <li>
-            <a href="./index.html" class="nav-link">Contacts</a>
+          <li class="nav-links">
+            <a class="link" href=""> Contacts </a>
           </li>
         </ul>
       </nav>
 
-      <address class="header-address">
+      <address class="contacts">
         <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-contacts"
-              >info@devstudio.com</a
-            >
+          <li class="nav-contact">
+            <a class="link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
           </li>
-          <li>
-            <a href="tel:+110001111111" class="link-contacts"
-              >+11 (000) 111-11-11</a
-            >
+          <li class="nav-contact">
+            <a class="link" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
           </li>
         </ul>
       </address>
     </header>
-
     <main>
-      <!--section-->
-      <section class="hero bg-dark">
-        <h1 class="hero-text">
+      <!--First Section-->
+      <section class="first">
+        <h1 class="first-header">
           Effective Solutions <br />
           for Your Business
         </h1>
-        <button type="button" class="hero-btn">Order Service</button>
+        <button type="button" class="button">Order Service</button>
       </section>
-
-      <!--section-->
+      <!--2nd Section-->
       <section>
-        <h2>list</h2>
+        <h2 class="third">List</h2>
         <ul class="list">
           <li>
-            <h3 class="p-title">Strategy</h3>
-            <p class="p-text">
+            <h3 class="list-header">Strategy</h3>
+            <p class="textlist">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="p-title">Punctuality</h3>
-            <p class="p-text">
+            <h3 class="list-header">Punctuality</h3>
+            <p class="textlist">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="p-title">Diligence</h3>
-            <p class="p-text">
+            <h3 class="list-header">Diligence</h3>
+            <p class="textlist">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="p-title">Technologies</h3>
-            <p class="p-text">
+            <h3 class="list-header">Technologies</h3>
+            <p class="textlist">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-
-      <!--section-->
+      <!--3rd Section-->
       <section>
-        <h2 class="section-title">What are we doing</h2>
-        <ul class="default-list">
+        <h2 class="third">What are we doing</h2>
+        <ul class="list">
           <li>
-            <img
-              src="./images/Computer (1).jpg"
-              alt="Computer"
-              width="360"
-              height="300"
-            />
+            <img src="./images/Computer (1).jpg" alt="img1" width="360" />
           </li>
           <li>
-            <img
-              src="./images/WhatsApp (1).jpg"
-              alt="WhatsApp"
-              width="360"
-              height="300"
-            />
+            <img src="./images/WhatsApp (1).jpg" alt="img2" width="360" />
           </li>
           <li>
-            <img
-              src="./images/Mobile (1).jpg"
-              alt="Mobile"
-              width="360"
-              height="300"
-            />
+            <img src="./images/Mobile (1).jpg" alt="img3" width="360" />
           </li>
         </ul>
       </section>
-
-      <!--section-->
-      <section class="team">
-        <h2 class="section-title">Our Team</h2>
+      <!--4th Section-->
+      <section class="fourth-section">
+        <h2 class="fourth">Our Team</h2>
         <ul class="list">
-          <li class="team">
-            <img
-              src="./images/markg (1).jpg"
-              alt="team member"
-              width="264"
-              height="264"
-            />
-            <h3 class="team-name">Mark Guerrero</h3>
-            <p class="team-title">Product Designer</p>
+          <li class="nav-links">
+            <img src="./images/markg (1).jpg" alt="TeamCard1" width="264" />
+            <h3 class="list-header">Mark Guerrero</h3>
+            <p class="textlist">Product Designer</p>
           </li>
-          <li class="team">
-            <img
-              src="./images/tomf (1).jpg"
-              alt="team member"
-              width="264"
-              height="264"
-            />
-            <h3 class="team-name">Tom Ford</h3>
-            <p class="team-title">Frontend Developer</p>
+          <li class="nav-links">
+            <img src="./images/tomf (1).jpg" alt="TeamCard2" width="264" />
+            <h3 class="list-header">Tom Ford</h3>
+            <p class="textlist">Frontend Developer</p>
           </li>
-          <li class="team">
+          <li class="nav-links">
             <img
               src="./images/camilag (1) (1).jpg"
-              alt="team member"
+              alt="TeamCard3"
               width="264"
-              height="264"
             />
-            <h3 class="team-name">Camila Garcia</h3>
-            <p class="team-title">Marketing</p>
+            <h3 class="list-header">Camila Garcia</h3>
+            <p class="textlist">Marketing</p>
           </li>
-          <li class="team">
-            <img
-              src="./images/danielw (1).jpg"
-              alt="team member"
-              width="264"
-              height="264"
-            />
-            <h3 class="team-name">Daniel Wilson</h3>
-            <p class="team-title">UI Designer</p>
+          <li class="nav-links">
+            <img src="./images/danielw (1).jpg" alt="Teamcard4" width="264" />
+            <h3 class="list-header">Daniel Wilson</h3>
+            <p class="textlist">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="bg-dark">
-      <p>&copy; portfolio.html</p>
-      <a href="./index.html" class="logo-link"
-        ><span class="logo-web-footer">Web</span
-        ><span class="logo-studio-footer">Studio</span>
+    <footer class="below">
+      <a class="logo link" href="./index.html">
+        Web<span class="text-logo">Studio</span>
       </a>
-      <p class="footer-text">
-        Increase the flow of customers and <br />
-        sales for your business with digital <br />
+      <p class="footer-logotext">
+        Increase the flow of customers and <br />sales for your business with
+        digital <br />
         marketing & growth solutions.
       </p>
     </footer>

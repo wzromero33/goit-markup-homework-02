@@ -58,13 +58,15 @@ body {
   display: flex;
   gap: 40px;
 }
-.list-item > .item {
+.list-item .item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--navy-blue);
   padding: 24px 0;
+  margin-right: 40px;
+  margin-right: 0;
 }
 li > .link:hover,
 li > .link:focus {

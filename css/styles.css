@@ -73,6 +73,12 @@ body {
 /* Address */
 .contacts {
   font-style: normal;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 .contact-item > .contact {
   font-size: 16px;

@@ -13,6 +13,19 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.main-header-container {
+  width: 1128px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
 .logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -39,17 +52,20 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid e7e9fc;
+  border-bottom: 1px solid;
+  color: #e7e9fc;
+  background: #fff;
+  padding: 24px 0;
 }
 
 .header-container {
   width: 1158px;
-  margin: 0%;
+  margin: 0% auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.header-navigation .link {
+.nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -57,15 +73,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-. .nav-links .link {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.header-contacts .link {
+.contacts .link {
   color: var(--NAVY-BLUE, #434455);
   font-size: 16px;
   font-weight: 500;
@@ -105,6 +113,7 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  text-align: center;
 }
 
 .button:hover {

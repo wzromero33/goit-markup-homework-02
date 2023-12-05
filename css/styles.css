@@ -71,7 +71,7 @@ body {
   color: var(--ocean);
 }
 /* Address */
-.contacts {
+.contacts-item {
   font-style: normal;
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;

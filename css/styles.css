@@ -54,7 +54,7 @@ body {
 .list {
   list-style: none;
 }
-.nav > .list {
+.nav .list {
   display: flex;
   gap: 40px;
 }

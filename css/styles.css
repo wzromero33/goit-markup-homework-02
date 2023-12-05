@@ -66,8 +66,8 @@ body {
   padding: 24px 0;
   display: block;
 }
-li > .link:hover,
-li > .link:focus {
+.link:hover,
+.link:focus {
   color: var(--ocean);
 }
 /* Address */

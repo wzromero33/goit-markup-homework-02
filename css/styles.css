@@ -89,6 +89,15 @@ body {
   display: flex;
   gap: 40px;
 }
+
+.contacts li {
+  margin-right: 40px;
+}
+
+.contacts li:last-child {
+  margin-right: 0;
+}
+
 /* MAIN */
 /* First Section */
 .first-section {
